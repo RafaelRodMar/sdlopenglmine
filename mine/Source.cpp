@@ -485,7 +485,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	// Clean up
-	glDeleteTextures(1, &textureID);
+	glDeleteTextures(1, &t);
 	for (int i = 0; i < 5; i++) {
 		glDeleteTextures(1, &skybox[i]);
 		glDeleteTextures(1, &box[i]);
